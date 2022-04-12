@@ -5,13 +5,13 @@
   "background_color": "#776e65",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "/2048",
   "lang": "pt-BR",
   "orientation": "vertical",
   "icons": [
     {
-      "src": "/assets/img/icons/favicon-512x512.png",
-      "sizes": "512x512",
+      "src": "/assets/img/favico .png",
+      "sizes": "225x225",
       "type": "image/png"
     }
   ]
