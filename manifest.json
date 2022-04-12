@@ -1,0 +1,18 @@
+{
+  "name": "2048 by MigPlayer6032",
+  "short_name": "2048",
+  "theme_color": "#776e65",
+  "background_color": "#776e65",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "lang": "pt-BR",
+  "orientation": "vertical",
+  "icons": [
+    {
+      "src": "/assets/img/icons/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
