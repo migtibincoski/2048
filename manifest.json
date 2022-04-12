@@ -10,7 +10,7 @@
   "orientation": "vertical",
   "icons": [
     {
-      "src": "/assets/img/favico .png",
+      "src": "/assets/img/favicon.png",
       "sizes": "225x225",
       "type": "image/png"
     }
