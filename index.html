@@ -11,7 +11,7 @@
   
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/assets/js/sw.js')
+      navigator.serviceWorker.register('/2048/assets/js/sw.js')
         .then(reg => console.info('ServiceWorker registrado com sucesso!'))
         .catch(err => console.error('Erro ao registrar o ServiceWorker:', err));
     } else {
