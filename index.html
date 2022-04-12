@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="assets/style/main.css">
   <meta name="theme-color" content="#776e65">
-  <link rel="favicon" href="assets/img/favicon.ico">
+  <link rel="favicon" href="assets/img/favicon.png">
   <link rel="manifest" href="manifest.json">
   
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('assets/js/sw.js')
+      navigator.serviceWorker.register('/assets/js/sw.js')
         .then(reg => console.info('ServiceWorker registrado com sucesso!'))
         .catch(err => console.error('Erro ao registrar o ServiceWorker:', err));
     } else {
