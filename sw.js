@@ -4,7 +4,6 @@ const cacheName = '2048-migplayer6032-v1';
 const filesToCache = ['/2048/',
 '/2048/index.html',
 '/2048/assets/style/main.css',
-'/2048/assets/js/game_manager.js',
 '/2048/assets/js/animframe_polyfill.js',
 '/2048/assets/js/application.js',
 '/2048/assets/js/bind_polyfill.js',
