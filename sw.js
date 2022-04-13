@@ -1,9 +1,9 @@
 // Choose a cache name
-const cacheName = 'cache-v1';
+const cacheName = '2048-migplayer6032-v1';
 // List the files to precache
 const filesToCache = ['/',
 '/index.html',
-'/assets/css/style.css',
+'/assets/style/style.css',
 '/assets/js/game_manager.js',
 '/assets/js/animframe_pollyfill.js',
 '/assets/js/application.js',
