@@ -1,20 +1,20 @@
 // Choose a cache name
 const cacheName = '2048-migplayer6032-v1';
 // List the files to precache
-const filesToCache = ['/',
-'/index.html',
-'/assets/style/style.css',
-'/assets/js/game_manager.js',
-'/assets/js/animframe_pollyfill.js',
-'/assets/js/application.js',
-'/assets/js/bind_polyfill.js',
-'/assets/js/classlist_polyfill.js',
-'/assets/js/game_manager.js',
-'/assets/js/grid.js',
-'/assets/js/html_actuator.js',
-'/assets/js/tile.js',
-'/assets/js/local_storage_manager.js',
-'/assets/js/keyboard_input_manager.js'];
+const filesToCache = ['/2048/',
+'/2048/index.html',
+'/2048/assets/style/style.css',
+'/2048/assets/js/game_manager.js',
+'/2048/assets/js/animframe_pollyfill.js',
+'/2048/assets/js/application.js',
+'/2048/assets/js/bind_polyfill.js',
+'/2048/assets/js/classlist_polyfill.js',
+'/2048/assets/js/game_manager.js',
+'/2048/assets/js/grid.js',
+'/2048/assets/js/html_actuator.js',
+'/2048/assets/js/tile.js',
+'/2048/assets/js/local_storage_manager.js',
+'/2048/assets/js/keyboard_input_manager.js'];
 
 // When the service worker is installing, open the cache and add the precache resources to it
 self.addEventListener('install', function(e) {
