@@ -2,17 +2,18 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <title>2048 Game by MigPlayer6032</title>
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="assets/style/main.css">
   <meta name="theme-color" content="#776e65">
   <link rel="favicon" href="assets/img/favicon.png">
-  <link rel="manifest" href="pwamanifest.json">
+  <link rel="manifest" href="manifest.json">
   
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/2048/sw.js')
-        .then(reg => console.info('ServiceWorker registrado com sucesso!'))
+        .then(reg => console.info('S'SrviceWorkereSev'S'Srvi'S'SrrviceWorkereServiceWorkererviceWorker registrado com sucesso!'))
         .catch(err => console.error('Erro ao registrar o ServiceWorker:', err));
     } else {
       alert('ServiceWorker não é suportado. Não é possivel fazer a instalação do PWA.');
@@ -33,6 +34,7 @@
     <div class="above-game">
       <p class="game-intro">Junte-se aos números e chegue ao bloco <strong>2048</strong>!</p>
       <a class="restart-button">+ Novo jogo</a>
+      <a id="installbtn">Instalar</a>
     </div>
     
     <div class="game-container">
@@ -99,6 +101,7 @@
   <script src="assets/js/local_storage_manager.js"></script>
   <script src="assets/js/game_manager.js"></script>
   <script src="assets/js/application.js"></script>
+  <script src="assets/js/button_install_pwa.js"></script>
   
 </body>
 </html>
