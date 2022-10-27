@@ -1,3 +1,9 @@
-# Get Started!
+# 2048 - A simple math game developed by Miguel Tibincoski and Guilherme Santos
 
-Add files and start typing 🎉
+## Demo
+![Demo Image](./assets/img/demo_1.png)
+
+## Compatibilidade
+
+- [X] Mobile
+- [X] Desktop
